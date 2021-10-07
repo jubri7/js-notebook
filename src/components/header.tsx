@@ -12,7 +12,7 @@ const Header : React.FC<HeaderProps> = () =>{
             <div>
             <NavLink to="/guide">Documentation</NavLink>
             </div>
-        <hr/>
+
         </div>
     </nav>
 }
