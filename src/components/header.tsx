@@ -5,15 +5,12 @@ interface HeaderProps{
 }
 const Header : React.FC<HeaderProps> = () =>{
     return <nav>
-        <div>
             <div>
             <NavLink to="/">Home</NavLink>
             </div>
             <div>
             <NavLink to="/guide">Documentation</NavLink>
             </div>
-
-        </div>
     </nav>
 }
 
