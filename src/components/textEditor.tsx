@@ -33,7 +33,7 @@ const TextEditor: React.FC<TextEditorProps> = ({cell}) => {
     },[cell.content])
     const changeHandler = (text:string | undefined) =>{
         if(!text){
-            updateCell(cell.id,"Click here to edit")
+            updateCell(cell.id,"")
         }
         else{
             updateCell(cell.id,text)
